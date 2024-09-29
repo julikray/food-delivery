@@ -1,6 +1,5 @@
 import React from 'react'
 import './Sidebar.css'
-import { assets } from '../../assets/assets'
 import{ NavLink } from 'react-router-dom'
 
 function Sidebar() {
@@ -8,15 +7,15 @@ function Sidebar() {
     <div className='sidebar'>
         <div className="sidebar-options">
             <NavLink to='./add' className="sidebar-option">
-                <img src={assets.add_icon_green} alt="" />
+                <img src="./image/add_icon_green.png" alt="" />
                 <p>Add Items</p>
             </NavLink>
             <NavLink to='/list' className="sidebar-option">
-                <img src={assets.basket_icon} alt="" />
+                <img src="./image/add_icon_green.png"  alt="" />
                 <p>List Items</p>
             </NavLink>
             <NavLink to='/orders' className="sidebar-option">
-                <img src={assets.basket_icon} alt="" />
+                <img src="./image/add_icon_green.png"  alt="" />
                 <p>Orders</p>
             </NavLink>
         </div>

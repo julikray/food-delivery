@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Add.css";
-import { assets } from "../../assets/assets";
 import axios from "axios"
 import { toast } from "react-toastify";
 
@@ -55,7 +54,7 @@ function Add({url}) {
         <div className="add-img-upload flex-col">
           <p>Upload Image</p>
           <label htmlFor="image">
-            <img src={image?URL.createObjectURL(image):assets.bag_icon} alt="" />
+            <img src={image?URL.createObjectURL(image):"./image/upload.png"} alt="" />
           </label>
           <input onChange={(e)=>setImage(e.target.files[0])} type="file" id="image" hidden required />
         </div>

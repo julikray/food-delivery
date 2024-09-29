@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer" id="footer">
     <div className="footer-content">
       <div className="footer-content-left">
-        <img src={assets.logo} alt="" />
+      <h1 className='logo'>MernFood</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum debitis
           eligendi deserunt, optio recusandae minus quia magnam enim itaque
@@ -34,14 +34,14 @@ function Footer() {
         <h2>GET IN TOUCH</h2>
         <ul>
             <li>+1-212-222-2222</li>
-            <li>contact@tomato.com</li>
+            <li>contact@MernFood.com</li>
         </ul>
 
       </div>
 
     </div>
     <hr />
-    <p className="footer-copyright">Copyright 2024 Tomato.com - All Right Reserved.</p>
+    <p className="footer-copyright">Copyright 2024 MernFood.com - All Right Reserved.</p>
     </div>
     
   )
