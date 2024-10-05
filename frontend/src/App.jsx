@@ -7,6 +7,7 @@ import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
 import Footer from "./compnents/Footer/Footer";
 import Loginpop from "./compnents/Loginpop/Loginpop";
 import Verify from "./pages/Verify/Verify";
+import MyOrders from "./pages/MyOrders/MyOrders";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<PlaceOrder />} />
           <Route path="/verify" element={<Verify/>} />
+          <Route path="/myorders" element={<MyOrders/>} />
         </Routes>
       </div>
       <Footer />
