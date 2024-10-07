@@ -1,9 +1,10 @@
 .header{
     height: 34vw;
     margin: 30px auto;
-    background: url('/header_img.png') no-repeat;
-    background-size: contain;
+    background: url('/header.jpg') no-repeat;
+    background-size: cover;
     position: relative;
+    border-radius: 5px;
 }
 
 .header-contents{
@@ -31,7 +32,7 @@
 
 .header-contents button{
     border: none;
-    color: #747474;
+    color: rgb(252, 43, 6);
     font-weight: 500;
     padding: 1vw 2.3vw;
     background-color: white;
